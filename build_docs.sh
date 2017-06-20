@@ -1,2 +1,3 @@
 cd docs
-jekyll build
+ls -l
+bundle exec jekyll build
