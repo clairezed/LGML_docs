@@ -33,7 +33,7 @@ collections:
       - {label: "Categorie", name: "category", widget: "string"}
       - {label: "Position", name: "order", widget: "number"}
       - {label: "Contenu", name: "body", widget: "markdown"}
-  - name: "docs/media" # Used in routes, e.g. /admin/collections/blog
+  - name: "docs_media" # Used in routes, e.g. /admin/collections/blog
     label: "Doc Media" # Used in the UI
     folder: "docs/_docs/media" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
