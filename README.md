@@ -2,7 +2,13 @@
 
 ## Documentation
 
-La documentation sous format **github pages** se trouve [sous ce lien](https://clairezed.github.io/LGML_docs/)
+Documentation mise en page en site statique :
+- [clairezed.github.io/LGML_docs](https://clairezed.github.io/LGML_docs/)
+- [lgmldocs.netlify.com](http://lgmldocs.netlify.com/)
+- [Accès admin ](http://lgmldocs.netlify.com/admin)
+
+
+
 
 
 ## Theme

@@ -33,3 +33,13 @@ collections:
       - {label: "Categorie", name: "category", widget: "string"}
       - {label: "Position", name: "order", widget: "number"}
       - {label: "Contenu", name: "body", widget: "markdown"}
+  - name: "docs/media" # Used in routes, e.g. /admin/collections/blog
+    label: "Doc Media" # Used in the UI
+    folder: "docs/_docs/media" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{permalink}}" # Filename template i.e. YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Categorie", name: "category", widget: "string"}
+      - {label: "Position", name: "order", widget: "number"}
+      - {label: "Contenu", name: "body", widget: "markdown"}
