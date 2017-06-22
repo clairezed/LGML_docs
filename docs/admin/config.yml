@@ -23,16 +23,6 @@ collections:
       - {label: "Contenu", name: "body", widget: "markdown"}
       # - {label: "Featured Image", name: "image", widget: "image"}
       # - {label: "Rating (scale of 1-5)", name: "rating", widget: "number"}
-  - name: "docs" # Used in routes, e.g. /admin/collections/blog
-    label: "Documentation" # Used in the UI
-    folder: "docs/_docs" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{permalink}}" # Filename template i.e. YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - {label: "Titre", name: "title", widget: "string"}
-      - {label: "Categorie", name: "category", widget: "string"}
-      - {label: "Position", name: "order", widget: "number"}
-      - {label: "Contenu", name: "body", widget: "markdown"}
   - name: "docs_media" # Used in routes, e.g. /admin/collections/blog
     label: "Doc Media" # Used in the UI
     folder: "docs/_docs/media" # The path to the folder where the documents are stored

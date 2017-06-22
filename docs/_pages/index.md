@@ -4,6 +4,19 @@ title: Accueil
 permalink: /
 ---
 
+Le **Grand Méchant Loop** (LGML) est un logiciel de musique orienté pour le live.
+Un moteur audio puissant, léger, cross-platform et open source, basé sur le framework en C++ : Juce.
+
+Originellement développé pour créer des orchestrations en Live Looping il est rapidement devenu un éditeur de matière sonore en direct car entièrement contrôlable en OSC/Midi/Serial et compatible avec les formats VST et AU de plugins audio.
+
+Éprouvé depuis 2016 sur le spectacle [Chrones](http://organic-orchestra.com/chrones/), LGML s’apprête à devenir disponible pour tous les musiciens, ingés son, enseignants et geeks :)
+(à vous de jouer pour la suite…)
+
+______
+
+
+Exemple de mise en forme :
+
 
 This is the **Edition** template from [CloudCannon](http://cloudcannon.com/).
 **Edition** is perfect for documenting your product, application or service.

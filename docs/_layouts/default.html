@@ -51,6 +51,11 @@
 		<section class="main">
 			<div class="page-header">
 				<h2>{% if page.category %}{{ page.category }}{% else %}{{ site.title }}{% endif %}</h2>
+        {% if page.edit_link %}
+        <a style="float: right;" href="{{ page.edit_link }}" target="_blank">Editer</a>
+
+        {% endif %}
+
 				<h3>{{ page.title }}</h3>
 			</div>
 			<article class="content">

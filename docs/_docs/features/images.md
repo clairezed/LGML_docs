@@ -1,7 +1,7 @@
 ---
-title: Images
-category: Media
-order: 1
+title: Time Manager
+category: Fonctionnalités
+order: 3
 ---
 
 Share images with your friends! Send photos and pictures from your computer, phone or camera.
