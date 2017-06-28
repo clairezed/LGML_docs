@@ -27,7 +27,7 @@ collections:
     label: "A propos" # Used in the UI
     folder: "docs/_docs/about" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{permalink}}" # Filename template i.e. YYYY-MM-DD-title.md
+    slug: "{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Titre", name: "title", widget: "string"}
       - {label: "Categorie", name: "category", widget: "string"}
@@ -37,7 +37,7 @@ collections:
     label: "Fonctionnalités" # Used in the UI
     folder: "docs/_docs/features" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{permalink}}" # Filename template i.e. YYYY-MM-DD-title.md
+    slug: "{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Titre", name: "title", widget: "string"}
       - {label: "Categorie", name: "category", widget: "string"}
@@ -47,7 +47,7 @@ collections:
     label: "Interface" # Used in the UI
     folder: "docs/_docs/interface" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
-    slug: "{{permalink}}" # Filename template i.e. YYYY-MM-DD-title.md
+    slug: "{{slug}}" # Filename template i.e. YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Titre", name: "title", widget: "string"}
       - {label: "Categorie", name: "category", widget: "string"}
