@@ -6,8 +6,8 @@ backend:
 # # interface for drafting, reviewing, and approving posts.
 # publish_mode: editorial_workflow
 
-media_folder: "assets/img"
-public_folder: "/docs/assets/img"
+media_folder: "docs/assets/img"
+public_folder: "/assets/img"
 
 collections:
   - name: "blog" # Used in routes, e.g. /admin/collections/blog
