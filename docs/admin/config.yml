@@ -53,4 +53,4 @@ collections:
       - {label: "Categorie", name: "category", widget: "string"}
       - {label: "Position", name: "order", widget: "number"}
       - {label: "Contenu", name: "body", widget: "markdown"}
-      - {label: "Featured Image", name: "image", widget: "image"}
+      - {label: "Image", name: "image", widget: "image"}
