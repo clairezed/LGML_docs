@@ -6,7 +6,7 @@ backend:
 # # interface for drafting, reviewing, and approving posts.
 # publish_mode: editorial_workflow
 
-media_folder: "docs/assets/img"
+media_folder: "assets/img"
 public_folder: "/docs/assets/img"
 
 collections:
@@ -44,7 +44,7 @@ collections:
       - {label: "Position", name: "order", widget: "number"}
       - {label: "Contenu", name: "body", widget: "markdown"}
   - name: "interface" # Used in routes, e.g. /admin/collections/blog
-    label: "Fonctionnalités" # Used in the UI
+    label: "Interface" # Used in the UI
     folder: "docs/_docs/interface" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{permalink}}" # Filename template i.e. YYYY-MM-DD-title.md
