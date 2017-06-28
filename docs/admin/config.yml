@@ -4,7 +4,7 @@ backend:
   branch: master # Branch to update
 
 # # interface for drafting, reviewing, and approving posts.
-# publish_mode: editorial_workflow
+publish_mode: editorial_workflow
 
 media_folder: "docs/assets/img"
 public_folder: "/assets/img"
