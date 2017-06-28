@@ -2,6 +2,7 @@
 layout: default
 title: Accueil
 permalink: /
+edit_link: https://github.com/clairezed/LGML_docs/blob/master/docs/_pages/index.md
 ---
 
 Le **Grand Méchant Loop** (LGML) est un logiciel de musique orienté pour le live.
