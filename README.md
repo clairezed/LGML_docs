@@ -38,3 +38,5 @@ Pour ajouter un CMS avec Netlify CMS dans cette configuration, voici les setting
 
 
 ### Gitbook
+
+[gitbook](https://www.gitbook.com/book/clairezed/book/details)
